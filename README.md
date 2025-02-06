@@ -39,8 +39,7 @@ Images representing each hand gesture and their corresponding actions can be fou
 - `Hand-Gesture-Recognition/gestures/`
 
 ## System Schematic
-The schematic of the setup is available in:
-- `static/images/SYSTEM.png`
+![System Schematic](static/images/SYSTEM.png)
 
 For more details, visit the project webpage: [Autostereoscopic Display](https://anamika-jh.github.io/Autostereoscopic-display.github.io/)
 
