@@ -1,5 +1,49 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+# Hand Gesture Recognition for Autostereoscopic Display
+
+This project enables gesture-based interaction using a webcam by recognizing hand gestures with the Mediapipe library and controlling the system via the PyAutoGUI library.
+
+## Project Structure
+The code for gesture interaction is located in the `Hand-Gesture-Recognition` folder. The project is divided into two main files:
+
+- **`app.py`**: Contains the main program logic for capturing video and processing hand gestures.
+- **`controller.py`**: Handles mouse cursor movement and click events based on detected gestures.
+
+Additionally, a `requirements.txt` file is provided to install the necessary dependencies.
+
+## Requirements
+To run the program, the following libraries are required:
+- OpenCV
+- Mediapipe
+- PyAutoGUI
+
+### Installation
+You can install the required libraries using pip:
+```sh
+pip install opencv-python mediapipe pyautogui
+```
+Or use the `requirements.txt` file to install the exact versions:
+```sh
+pip install -r requirements.txt
+```
+
+## How to Run
+1. Ensure that all required libraries are installed.
+2. Run the `app.py` file in a Python environment with a webcam:
+   ```sh
+   python app.py
+   ```
+3. The program will start capturing video from the webcam, and you can control the system using hand gestures.
+
+## Gesture Reference
+Images representing each hand gesture and their corresponding actions can be found in:
+- `Hand-Gesture-Recognition/gestures/`
+
+## System Schematic
+The schematic of the setup is available in:
+- `static/images/SYSTEM.png`
+
+For more details, visit the project webpage: [Autostereoscopic Display](https://anamika-jh.github.io/Autostereoscopic-display.github.io/)
+
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
