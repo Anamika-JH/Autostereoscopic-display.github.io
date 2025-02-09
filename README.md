@@ -1,5 +1,6 @@
 # Hand Gesture Recognition for Autostereoscopic Display
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python) ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-red?style=flat-square&logo=opencv) ![Mediapipe](https://img.shields.io/badge/Mediapipe-Hand%20Tracking-orange?style=flat-square) ![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-Desktop%20Automation-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey?style=flat-square)
+
 This project enables gesture-based interaction using a webcam by recognizing hand gestures with the Mediapipe library and controlling the system via the PyAutoGUI library.
 
 ## Project Structure
